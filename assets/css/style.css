@@ -1,5 +1,8 @@
 body{
    background: url("../images/main-background.png");
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
 }
 .name {
     float: left;
@@ -40,7 +43,6 @@ h2 {
     padding: 30px 0px 30px 0px;
 }
 .footer {
-    position: fixed;
     bottom:0px;
     width: 100%;
     background-color: #666666;
@@ -64,6 +66,7 @@ h2 {
     margin: 30px 15%;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    flex: 1;
 
 }
 #profile {
