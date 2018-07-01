@@ -14,9 +14,6 @@ body{
     
 }
 
-li{
-    display: inline;
-}
 header{
     overflow: hidden;
     background-color: #ffffff;
